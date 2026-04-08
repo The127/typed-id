@@ -37,12 +37,12 @@ No runtime deps are added — `uuid` and `serde` stay on the consumer crate.
 
 ```toml
 [dependencies]
-typed-id = { path = "../typed-id" }           # or version = "0.1"
+raccoon-typed-id = "0.1"
 uuid = { version = "1", features = ["v4"] }   # required by uuid_id!
 serde = { version = "1", features = ["derive"] }
 
 # Optional: enable utoipa schema generation
-# typed-id = { ..., features = ["openapi"] }
+# raccoon-typed-id = { version = "0.1", features = ["openapi"] }
 # utoipa = "5"
 ```
 
