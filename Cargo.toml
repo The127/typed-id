@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 description = "Proc-macros for generating typed UUID and slug newtype wrappers"
 license = "MIT"
+repository = "https://github.com/The127/typed-id"
 
 [lib]
 proc-macro = true
