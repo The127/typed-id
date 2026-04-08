@@ -1,5 +1,5 @@
 [package]
-name = "typed-id"
+name = "raccoon-typed-id"
 version = "0.1.0"
 edition = "2024"
 description = "Proc-macros for generating typed UUID and slug newtype wrappers"
